@@ -14,10 +14,10 @@ class MainDriverTest {
     @Test
     void mainPrintsExpectedDemonstration() throws Exception {
         List<String> expected = List.of(
-                "Car: category=Land, wheels/propellers=4, time=2.00 hours",
-                "Bicycle: category=Land, wheels/propellers=2, time=8.00 hours",
-                "Boat: category=Water, wheels/propellers=2, time=4.00 hours",
-                "Sailboat: category=Water, wheels/propellers=0, time=10.00 hours"
+                "Car: category=LAND, wheels/propellers=4, time=2.00 hours",
+                "Bicycle: category=LAND, wheels/propellers=2, time=8.00 hours",
+                "Boat: category=WATER, wheels/propellers=2, time=4.00 hours",
+                "Sailboat: category=WATER, wheels/propellers=0, time=10.00 hours"
         );
 
         ByteArrayOutputStream bytes = new ByteArrayOutputStream();
